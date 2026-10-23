@@ -21,6 +21,7 @@ app.include_router(admin.router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://library-management-backend-ih5s.onrender.com",
         "http://localhost:5173",
     ],
     allow_credentials=True,
